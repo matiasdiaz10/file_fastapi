@@ -3,7 +3,11 @@ from pydantic import BaseModel
 from fastapi import Form
 
 
-class Imagen(BaseModel):
+class Persona (BaseModel):
     id:Optional[str] 
-    name:str 
+    nombre:str
+    apellido:str
+    direccion:str 
+    dni:str
+    dirImg:str
     

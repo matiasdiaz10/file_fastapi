@@ -11,7 +11,7 @@ from fastapi.responses import FileResponse
 
 
 from conf.db import con
-from models.imagen import persona
+from models.persona import persona
 
 routes = APIRouter()
 
